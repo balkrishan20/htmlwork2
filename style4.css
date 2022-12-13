@@ -302,6 +302,7 @@ html ::-webkit-scrollbar{
 }
 #cupjourney .card1{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
 }
 #cupjourney .card1 img{
     height: 60px;
@@ -366,10 +367,11 @@ html ::-webkit-scrollbar{
     width: 100%;
     background: #17202A;
     margin-top: 50px;
-    padding: 150px;
+    padding: 50px;
 }
 .footer-logo img{
-    width: 180px;
+    width: 325px;
+    height: 340px;
     border-radius: 10px;
     margin-top: 30px;
     cursor: pointer;
@@ -392,14 +394,14 @@ html ::-webkit-scrollbar{
 }
 .credits a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: bold;
 }
 #credits a span{
-    color: black;
+    color: white;
 }
 .copyright span{
-    color: black;
+    color: white;
 }
 /* footer end */
 html{
