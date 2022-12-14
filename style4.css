@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
+
 }
 .all-content{
     background: #f7f5f2;
@@ -183,7 +184,7 @@ html ::-webkit-scrollbar{
 /* menu start */
 #menu{
     width: 100%;
-    margin-top: 50px;
+    margin-top: 90px;
 }
 .heading3{
     text-align: center;
