@@ -6,9 +6,11 @@
 }
 .all-content{
     background: #f7f5f2;
+    
 }
 html ::-webkit-scrollbar-track{
     background: transparent;
+    
 }
 html ::-webkit-scrollbar-thumb{
     background: #b2744c;
@@ -50,32 +52,27 @@ html ::-webkit-scrollbar{
     border-radius: 5px;
     color: black;
 }
+
+.d-flex{
+    display: flex;
+
+}
 .btn1{
     background: #f7f5f2;
     color: black;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 5px;
+    padding: 0.4rem 2rem;
+    margin-right: 1rem;
     font-size: large;
+    text-decoration: none;
     font-weight: bold;
 }
 .btn1:hover{
     background: chocolate;
+    color: #f7f5f2;
 }
-.btn2{
-    background: #f7f5f2;
-    color: black;
-    font-size: large;
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-left: 15px;
-    padding: 5px;
-    font-weight: bold;
-}
-.btn2:hover{
-    background: chocolate;
 
-}
 
 /* navbar end */
 
@@ -97,12 +94,14 @@ html ::-webkit-scrollbar{
     margin-left: 56px;
 }
 #home .content h3{
-    font-size: 50px;
+    font-size: 70px;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #home .content p{
-    margin-top: 10px;
+    margin-top: 20px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #btn{
     width: 150px;
