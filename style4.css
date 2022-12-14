@@ -71,6 +71,7 @@ html ::-webkit-scrollbar{
 }
 .btn1:hover{
     background: chocolate;
+    border: 1px solid rgb(255, 255, 255);
     color: #f7f5f2;
 }
 
@@ -184,7 +185,7 @@ html ::-webkit-scrollbar{
 /* menu start */
 #menu{
     width: 100%;
-    margin-top: 100px;
+    margin-top: -18px;
 }
 .heading3{
     text-align: center;
@@ -238,10 +239,10 @@ html ::-webkit-scrollbar{
 #cup .container img{
     max-width: 100%;
     max-height: 100%;
-    filter: drop-shadow(5px 5px 5px #222222);;
+    filter: drop-shadow(5px 5px 5px #222222);
+    margin-left: 1.5rem;
 }
 #cup .container .picture{
-    width: 600px;
     height: 500px;
 }
 .col-md-6 p{
